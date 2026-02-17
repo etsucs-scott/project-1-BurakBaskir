@@ -1,0 +1,375 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.4.0">
+  <diagram name="Page-1" id="ZOp8cjClOaA35z0hDwNO">
+    <mxGraphModel dx="4793" dy="3920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-105" edge="1" parent="1" source="LGPEI_kJ1Xr-l3VrTcCJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-405" y="-450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="FightLogic" vertex="1">
+          <mxGeometry height="106" width="160" x="-445" y="-330" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-6" parent="LGPEI_kJ1Xr-l3VrTcCJ-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-7" parent="LGPEI_kJ1Xr-l3VrTcCJ-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-8" parent="LGPEI_kJ1Xr-l3VrTcCJ-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ FightLoop(player: Player, monster: Monster) : string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="46" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-115" edge="1" parent="1" source="LGPEI_kJ1Xr-l3VrTcCJ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139.84210526315792" y="-350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="abstract&amp;nbsp; Item&amp;nbsp;" vertex="1">
+          <mxGeometry height="186" width="140" x="70" y="-310" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-10" parent="LGPEI_kJ1Xr-l3VrTcCJ-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;nbsp;+ Name : string&lt;/div&gt;&lt;div&gt;&amp;nbsp; + {abstract} PickUpMessage : string&lt;/div&gt;" vertex="1">
+          <mxGeometry height="152" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-11" parent="LGPEI_kJ1Xr-l3VrTcCJ-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="140" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-27" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Monster" vertex="1">
+          <mxGeometry height="236" width="130" x="-670" y="-160" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-28" parent="LGPEI_kJ1Xr-l3VrTcCJ-27" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;nbsp;- health : int&lt;/div&gt;&lt;div&gt;&amp;nbsp; + Health : int&lt;/div&gt;&lt;div&gt;&amp;nbsp; + BaseDamage : int&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="104" width="130" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-29" parent="LGPEI_kJ1Xr-l3VrTcCJ-27" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="130" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-30" parent="LGPEI_kJ1Xr-l3VrTcCJ-27" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ Monster()&lt;/div&gt;&lt;div&gt;&amp;nbsp; + Attack(player: ICharacter) : int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="98" width="130" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-31" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Maze" vertex="1">
+          <mxGeometry height="296" width="160" x="70" y="-790" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-109" edge="1" parent="LGPEI_kJ1Xr-l3VrTcCJ-31" source="LGPEI_kJ1Xr-l3VrTcCJ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-350" y="156.66666666666674" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-111" edge="1" parent="LGPEI_kJ1Xr-l3VrTcCJ-31" source="LGPEI_kJ1Xr-l3VrTcCJ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-32" parent="LGPEI_kJ1Xr-l3VrTcCJ-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ Width : int&lt;/div&gt;&lt;div&gt;&amp;nbsp; + Height : int&lt;/div&gt;&lt;div&gt;&amp;nbsp; + commonMazeMeasure : int&lt;/div&gt;&lt;div&gt;&amp;nbsp; + TileFeature : TileType[,]&lt;/div&gt;&lt;div&gt;&amp;nbsp; + PositionInit : (int, int)&lt;/div&gt;&lt;div&gt;&amp;nbsp; + PlayerPosition : (int, int)&lt;/div&gt;&lt;div&gt;&amp;nbsp; --&lt;/div&gt;&lt;div&gt;&amp;nbsp; + Maze(commonMazeMeasure: int, mazeGenerator: MazeGeneratorLogics)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="262" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-33" parent="LGPEI_kJ1Xr-l3VrTcCJ-31" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-35" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Player" vertex="1">
+          <mxGeometry height="336" width="260" x="-410" y="-170" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-36" parent="LGPEI_kJ1Xr-l3VrTcCJ-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - health : int&lt;/div&gt;&lt;div&gt;&amp;nbsp; + Health : int&lt;/div&gt;&lt;div&gt;&amp;nbsp; + EquippedWeapon : Weapon&lt;/div&gt;&lt;div&gt;&amp;nbsp; + BaseDamage : int&lt;/div&gt;&lt;div&gt;&amp;nbsp; + DamageDealt : int&lt;/div&gt;&lt;div&gt;&amp;nbsp; + Name : string&lt;/div&gt;&lt;div&gt;&amp;nbsp; + Inventory : List&amp;lt;Item&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="154" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-37" parent="LGPEI_kJ1Xr-l3VrTcCJ-35" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="68" width="260" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-38" parent="LGPEI_kJ1Xr-l3VrTcCJ-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ Player()&lt;/div&gt;&lt;div&gt;&amp;nbsp; + Attack(monster: ICharacter) : int&lt;/div&gt;&lt;div&gt;&amp;nbsp; + UsePotion(potion: HealthPotion) : int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="88" width="260" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-39" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Weapon" vertex="1">
+          <mxGeometry height="148" width="160" x="-90" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-90" edge="1" parent="LGPEI_kJ1Xr-l3VrTcCJ-39" source="LGPEI_kJ1Xr-l3VrTcCJ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=block;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="-60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-40" parent="LGPEI_kJ1Xr-l3VrTcCJ-39" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ DamageAdded : int&lt;/div&gt;&lt;div&gt;+ Weapon(name: string, damageAdded: int)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="88" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-41" parent="LGPEI_kJ1Xr-l3VrTcCJ-39" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-42" parent="LGPEI_kJ1Xr-l3VrTcCJ-39" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;nbsp; + PickUpMessage : string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="160" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-119" edge="1" parent="1" source="LGPEI_kJ1Xr-l3VrTcCJ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220.00000000000045" y="-252.46153846153857" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-43" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Abstract Potion" vertex="1">
+          <mxGeometry height="34" width="160" x="320" y="-270" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-45" parent="LGPEI_kJ1Xr-l3VrTcCJ-43" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-47" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="HealthPotion" vertex="1">
+          <mxGeometry height="132" width="160" x="510" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-48" parent="LGPEI_kJ1Xr-l3VrTcCJ-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ HealthRestores : int&lt;/div&gt;&lt;div&gt;+ HealthPotion(name: string, healthRestores: int)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="72" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-49" parent="LGPEI_kJ1Xr-l3VrTcCJ-47" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-50" parent="LGPEI_kJ1Xr-l3VrTcCJ-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ PickUpMessage : string" vertex="1">
+          <mxGeometry height="26" width="160" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-51" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ItemCollecting" vertex="1">
+          <mxGeometry height="96" width="160" x="60" y="-456" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-52" parent="LGPEI_kJ1Xr-l3VrTcCJ-51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-53" parent="LGPEI_kJ1Xr-l3VrTcCJ-51" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-54" parent="LGPEI_kJ1Xr-l3VrTcCJ-51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ CollectItem(player: Player, item: Item) : string" vertex="1">
+          <mxGeometry height="36" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-55" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="PotionConsumeLogics" vertex="1">
+          <mxGeometry height="96" width="160" x="-160" y="-380" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-57" parent="LGPEI_kJ1Xr-l3VrTcCJ-55" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-56" parent="LGPEI_kJ1Xr-l3VrTcCJ-55" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-" vertex="1">
+          <mxGeometry height="26" width="160" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-58" parent="LGPEI_kJ1Xr-l3VrTcCJ-55" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ UseHealthPotion(player: Player) : string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="36" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-59" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="WeaponSelectingLogic" vertex="1">
+          <mxGeometry height="116" width="160" x="-750" y="-560" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-110" edge="1" parent="LGPEI_kJ1Xr-l3VrTcCJ-59" source="LGPEI_kJ1Xr-l3VrTcCJ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="38.333333333333485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-60" parent="LGPEI_kJ1Xr-l3VrTcCJ-59" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-61" parent="LGPEI_kJ1Xr-l3VrTcCJ-59" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-62" parent="LGPEI_kJ1Xr-l3VrTcCJ-59" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ SelectWeapon(player: Player) : void" vertex="1">
+          <mxGeometry height="56" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-63" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="PlayerTileChangeLogic" vertex="1">
+          <mxGeometry height="244" width="160" x="-450" y="-700" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-65" parent="LGPEI_kJ1Xr-l3VrTcCJ-63" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-64" parent="LGPEI_kJ1Xr-l3VrTcCJ-63" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-" vertex="1">
+          <mxGeometry height="26" width="160" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-66" parent="LGPEI_kJ1Xr-l3VrTcCJ-63" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&amp;nbsp; + ChangePlayerTile(maze: Maze, keyPressed: char, fightLogic: FightLogic, player: Player, weaponSelectingLogic: WeaponSelectingLogic, itemCollecting: ItemCollecting, potionConsumeLogics: PotionConsumeLogics) : string" vertex="1">
+          <mxGeometry height="190" width="160" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-67" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="MazeGeneratorLogics" vertex="1">
+          <mxGeometry height="380" width="160" x="330" y="-1110" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-68" parent="LGPEI_kJ1Xr-l3VrTcCJ-67" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-70" parent="LGPEI_kJ1Xr-l3VrTcCJ-67" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ GenerateFinalMaze(maze: Maze) : void&lt;/div&gt;&lt;div&gt;&amp;nbsp; + GenerateInitialMazeState(maze: Maze) : void&lt;/div&gt;&lt;div&gt;&amp;nbsp; + GenerateMazeBorders(maze: Maze) : void&lt;/div&gt;&lt;div&gt;&amp;nbsp; + PlacePlayerInMaze(maze: Maze) : void&lt;/div&gt;&lt;div&gt;&amp;nbsp; + PlaceExitInMaze(maze: Maze) : void&lt;/div&gt;&lt;div&gt;&amp;nbsp; + PlaceMonstersInMaze(maze: Maze) : void&lt;/div&gt;&lt;div&gt;&amp;nbsp; + PlaceWeaponsInMaze(maze: Maze) : void&lt;/div&gt;&lt;div&gt;&amp;nbsp; + PlacePotionsInMaze(maze: Maze) : void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="320" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-69" parent="LGPEI_kJ1Xr-l3VrTcCJ-67" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-71" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="MazeRenderingLogic" vertex="1">
+          <mxGeometry height="110" width="160" x="560" y="-710" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-72" parent="LGPEI_kJ1Xr-l3VrTcCJ-71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-73" parent="LGPEI_kJ1Xr-l3VrTcCJ-71" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-74" parent="LGPEI_kJ1Xr-l3VrTcCJ-71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ {static} MazeRender(maze: Maze) : void" vertex="1">
+          <mxGeometry height="50" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-75" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;interface&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;IAttack&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="144" width="310" x="-990" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-77" parent="LGPEI_kJ1Xr-l3VrTcCJ-75" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="310" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-78" parent="LGPEI_kJ1Xr-l3VrTcCJ-75" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;Attack&lt;/span&gt;( &lt;span style=&quot;color: #9cdcfe;&quot;&gt;character : &lt;/span&gt;&lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;ICharacter&lt;/span&gt;) : int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="310" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-79" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;interface&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;ICharacter&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="168" width="190" x="-615" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-80" parent="LGPEI_kJ1Xr-l3VrTcCJ-79" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#569cd6&quot;&gt;+ &lt;/font&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;Health&lt;/span&gt;&lt;font color=&quot;#cccccc&quot;&gt; : int&lt;/font&gt;&lt;font color=&quot;#cccccc&quot;&gt; &lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;+ &lt;/font&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;BaseDamage&lt;/span&gt;&lt;font color=&quot;#cccccc&quot;&gt; : int&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="190" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-81" parent="LGPEI_kJ1Xr-l3VrTcCJ-79" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="88" width="190" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-84" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;interface&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;IPotionUses&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="320" x="-390" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-85" parent="LGPEI_kJ1Xr-l3VrTcCJ-84" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-" vertex="1">
+          <mxGeometry height="26" width="320" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-86" parent="LGPEI_kJ1Xr-l3VrTcCJ-84" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="320" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-87" parent="LGPEI_kJ1Xr-l3VrTcCJ-84" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;font color=&quot;#569cd6&quot;&gt;+&lt;/font&gt;&lt;span style=&quot;color: rgb(204, 204, 204);&quot;&gt; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;UsePotion&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;potion:&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;HealthPotion&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(204, 204, 204);&quot;&gt;) :&lt;/span&gt;&lt;font color=&quot;#4ec9b0&quot;&gt;int&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="320" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-88" edge="1" parent="1" source="LGPEI_kJ1Xr-l3VrTcCJ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.024;entryY=0.303;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" target="LGPEI_kJ1Xr-l3VrTcCJ-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="-253" />
+              <mxPoint x="610" y="-92" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-92" edge="1" parent="1" source="LGPEI_kJ1Xr-l3VrTcCJ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.672;exitY=-0.012;exitDx=0;exitDy=0;endArrow=open;endFill=0;entryX=-0.024;entryY=0.156;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" target="LGPEI_kJ1Xr-l3VrTcCJ-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-562" y="-170" />
+              <mxPoint x="-570" y="-170" />
+              <mxPoint x="-570" y="-263" />
+            </Array>
+            <mxPoint x="-540" y="-170" as="sourcePoint" />
+            <mxPoint x="-570" y="-292" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-93" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.672;exitY=-0.012;exitDx=0;exitDy=0;endArrow=open;endFill=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-232" y="-167" />
+              <mxPoint x="-240" y="-167" />
+              <mxPoint x="-240" y="-260" />
+            </Array>
+            <mxPoint x="-232" y="-160" as="sourcePoint" />
+            <mxPoint x="-280" y="-260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-96" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-630" y="290" />
+              <mxPoint x="-630" y="290" />
+            </Array>
+            <mxPoint x="-600" y="280" as="sourcePoint" />
+            <mxPoint x="-680" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-97" edge="1" parent="1" source="LGPEI_kJ1Xr-l3VrTcCJ-38" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="-600" y="180" as="sourcePoint" />
+            <mxPoint x="-740" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-98" edge="1" parent="1" source="LGPEI_kJ1Xr-l3VrTcCJ-30" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=-0.028;exitY=0.984;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="-850" y="240" as="sourcePoint" />
+            <mxPoint x="-940" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-99" edge="1" parent="1" source="LGPEI_kJ1Xr-l3VrTcCJ-38" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.177;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;" target="LGPEI_kJ1Xr-l3VrTcCJ-84" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="-320" y="190" as="sourcePoint" />
+            <mxPoint x="-160" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-101" edge="1" parent="1" source="LGPEI_kJ1Xr-l3VrTcCJ-38" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points" />
+            <mxPoint x="-664" y="70" as="sourcePoint" />
+            <mxPoint x="-480" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-103" edge="1" parent="1" source="LGPEI_kJ1Xr-l3VrTcCJ-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.865;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;" target="LGPEI_kJ1Xr-l3VrTcCJ-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-104" connectable="0" parent="LGPEI_kJ1Xr-l3VrTcCJ-103" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+          <mxGeometry relative="1" x="-0.2049" y="-7" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-106" edge="1" parent="1" source="LGPEI_kJ1Xr-l3VrTcCJ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.981;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" target="LGPEI_kJ1Xr-l3VrTcCJ-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-107" edge="1" parent="1" source="LGPEI_kJ1Xr-l3VrTcCJ-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1.012;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" target="LGPEI_kJ1Xr-l3VrTcCJ-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-108" edge="1" parent="1" source="LGPEI_kJ1Xr-l3VrTcCJ-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.03;entryY=0.179;entryDx=0;entryDy=0;entryPerimeter=0;" target="LGPEI_kJ1Xr-l3VrTcCJ-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-70" y="-432" />
+              <mxPoint x="-70" y="-560" />
+              <mxPoint x="-250" y="-560" />
+              <mxPoint x="-250" y="-612" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-112" edge="1" parent="1" source="LGPEI_kJ1Xr-l3VrTcCJ-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.009;entryY=0.835;entryDx=0;entryDy=0;entryPerimeter=0;" target="LGPEI_kJ1Xr-l3VrTcCJ-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="-690" />
+              <mxPoint x="525" y="-690" />
+              <mxPoint x="525" y="-791" />
+            </Array>
+            <mxPoint x="490" y="-631.6666666666665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-113" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="-590" />
+              <mxPoint x="390" y="-580" />
+              <mxPoint x="450" y="-580" />
+              <mxPoint x="450" y="-550" />
+              <mxPoint x="490" y="-550" />
+              <mxPoint x="490" y="-520" />
+            </Array>
+            <mxPoint x="240" y="-590" as="sourcePoint" />
+            <mxPoint x="610" y="-590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-116" edge="1" parent="1" source="LGPEI_kJ1Xr-l3VrTcCJ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="LGPEI_kJ1Xr-l3VrTcCJ-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="345" y="-94" />
+              <mxPoint x="30" y="-94" />
+              <mxPoint x="30" y="-280" />
+              <mxPoint x="35" y="-280" />
+              <mxPoint x="35" y="-302" />
+            </Array>
+            <mxPoint x="-50" y="-240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-117" edge="1" parent="1" source="LGPEI_kJ1Xr-l3VrTcCJ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="LGPEI_kJ1Xr-l3VrTcCJ-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="85" />
+              <mxPoint x="-20" y="470" />
+              <mxPoint x="-1120" y="470" />
+              <mxPoint x="-1120" y="-472" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-118" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0..*" vertex="1">
+          <mxGeometry height="30" width="60" x="520" y="-170" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-121" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0..*" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="-17" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPEI_kJ1Xr-l3VrTcCJ-122" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0..*" vertex="1">
+          <mxGeometry height="30" width="60" x="-630" y="-200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,43 +1,52 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/2QC0Bpz-)
-# CSCI 1260 — Project
+# Project 1: Text-Based Adventure Game
 
-## Project Instructions
-All project requirements, grading criteria, and submission details are provided on **D2L**.  
-Refer to D2L as the *authoritative source* for this assignment.
+a adventure game built in C#. The project consist of 2 main part the game domain logic (Core library) from the user interface (Console application). 
 
-This repository is intentionally minimal. You are responsible for:
-- Creating the solution and projects
-- Designing the class structure
-- Implementing the required functionality
+## Git Usage & Setup
 
----
+To get a local copy up and running, follow these steps:
 
-## Getting Started (CLI)
+**1. Clone the repository:**
 
-You may use **Visual Studio**, **VS Code**, or the **terminal**.
+git clone git@github.com:etsucs-scott/project-1-BurakBaskir.git
+cd project-1-BurakBaskir
+2. Build the solution:   
 
-### Create a solution
-```bash
-dotnet new sln -n ProjectName
-```
 
-### Create a project (example: console app)
-```bash
-dotnet new console -n ProjectName.App
-```
-
-### Add the project to the solution
-```bash
-dotnet sln add ProjectName.App
-```
-
-### Build and run
-```bash
 dotnet build
-dotnet run --project ProjectName.App
-```
+3. Run the game: 
 
-## Notes
-- Commit early and commit often.
-- Your repository history is part of your submission.
-- Update this README with build/run instructions specific to your project.
+dotnet run --project src/AdventureGame.Console
+
+
+**Controls & Display**
+The game is played entirely via the keyboard. The console clears and redraws the map after every valid action.
+
+Movement & Actions:
+
+W  - Move Up
+
+S  - Move Down
+
+A  - Move Left
+
+D  - Move Right
+
+R  - Consume a Health Potion from inventory
+
+**Win/Lose Conditions & Battle Mechanics**
+
+Win Condition: Successfully navigate the maze and step on the tile "E".
+Lose Condition: Your HP drop to 0 during a monster encounter.
+
+How Battles Work:
+
+1. Stepping onto a Monster (M) tile initiates combat.
+
+2. The player always attacks first. If the monster survives the hit, it attacks.
+
+3. Player damage is calculated dynamically (Base Damage [10] + Highest Weapon Modifier in inventory). Monster damage is always Base Damage.
+
+4. Once a battle starts, it continues automatically in a loop until either the player or the monster reaches 0 HP.
+
+5. Aftermath: If you win, the monster tile becomes an player tile and you occupy that tile.
